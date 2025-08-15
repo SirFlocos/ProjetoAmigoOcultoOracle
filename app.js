@@ -2,6 +2,7 @@
 
 const amigos = []; // Array
 
+
 function adicionarAmigo() {
     const input = document.getElementById('amigo'); // Selecionando dados escritos no Input
     const nome = input.value.trim(); // Tratando dados, antes de os enviar de fato ao Array
